@@ -1,0 +1,65 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+input:focus {
+    border: 1px solid #137570 !important;
+    /* box shadow */
+    box-shadow: 0 0 0 0.2rem #13757060 !important;
+}
+
+.form-check-input:checked {
+    background-color: #137570 !important;
+    border-color: #137570 !important;
+}
+
+.btn-primary {
+    background-color: #137570 !important;
+    border-color: #137570 !important;
+}
+h2 {
+    color: #51a2a5;
+}
+.btn-primary:hover {
+    background-color: #137570 !important;
+    border-color: #137570 !important;
+    box-shadow: 0 0 0 0.2rem #13757060 !important;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+input {
+    border: 1px solid #e3e3e3 !important;
+}
+
+select:focus {
+    border: 1px solid #3AC2BC !important;
+    /* box shadow */
+    box-shadow: 0 0 0 0.2rem #13757060 !important;
+}
+label {
+    color: #51a2a5;
+}
+.btn-outline-primary {
+    color: #3AC2BC !important;
+    border-color: #3AC2BC !important;
+}
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #3AC2BC !important;
+    border-color: #3AC2BC !important;
+}

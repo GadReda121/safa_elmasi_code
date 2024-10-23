@@ -1,0 +1,58 @@
+.hadith{
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: url(./images/hadith-border.png) 30 round;
+  padding: 1rem;
+}
+
+
+.quran {
+  border-width: 30px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: url(./images/quran-border.png) 60 round;
+  padding: 0px;
+}
+
+
+.quran,
+.hadith {
+  font-family: taha-naskh, georgia, serif;
+  color: rgb(32, 49, 69);
+  margin: 1rem auto;
+}
+
+.quran .content,
+.hadith .content {
+  text-align: justify;
+  text-align-last: center;
+  font-size: 20px;
+}
+
+.quran .reference,
+.hadith .reference {
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.quran .intro p,
+.hadith .intro p{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+
+.quran .content p,
+.hadith .content p{
+  margin-bottom: 5px;
+}
+
+.quran .reference p,
+.hadith .reference p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+

@@ -1,0 +1,93 @@
+.main-menu.menu-light .navigation>li ul .active>a {
+    color: #545766;
+    background: whitesmoke;
+    border-left: 4px solid #ef493b;
+    font-size: 14px;
+}
+
+input:focus,
+.form-select:focus,
+textarea:focus {
+    border: 1px solid #137570 !important;
+    /* box shadow */
+    box-shadow: 0 0 0 0.2rem #13757060 !important;
+}
+
+/* .btn-orange{
+    background-color: #137570 !important;
+color: #fff !important;
+} */
+.form-check-input:checked {
+    background-color: #137570 !important;
+    border-color: #137570 !important;
+}
+
+.btn-primary {
+    background-color: #137570 !important;
+    border-color: #06423f80 !important;
+}
+
+h2 {
+    color: #06423f80;
+}
+
+.btn-primary:hover {
+    background-color: #24918b !important;
+    border-color: #06423f80 !important;
+    box-shadow: 0 0 0 0.2rem #13757060 !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form-control {
+    padding: 10px 7px !important;
+}
+
+.btn,
+.content-header-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+canvas,
+small {
+    font-family: "Cairo", sans-serif !important;
+}
+
+/* .content-header-left {
+    background-color: #137570;
+} */
+
+.breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right !important;
+}
+
+/* table thead th{
+    color: #137570 !important;
+} */
+table thead th {
+    background-color: #ebebeb !important;
+}
+
+
+*{
+    font-size: 22px;
+
+}
